@@ -7,7 +7,11 @@ module.exports = {
     index: path.resolve(__dirname, '../dist/index.html'),
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
+<<<<<<< HEAD
     assetsPublicPath: 'vue-resume/dist',
+=======
+    assetsPublicPath: '/vue-resume/',
+>>>>>>> cf81b71917711099694b3bda19040737822233e2
     productionSourceMap: true,
     // Gzip off by default as many popular static hosts such as
     // Surge or Netlify already gzip all static assets for you.
