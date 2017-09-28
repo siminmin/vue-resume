@@ -2,7 +2,11 @@
   "name": "vue-resume",
   "version": "1.0.0",
   "description": "A Vue.js project",
+<<<<<<< HEAD
   "author": "siminjun",
+=======
+  "author": "siminmin <simin_jun@163.com>",
+>>>>>>> 81e968fc73d54039fdb6e415298fa71574571934
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
@@ -10,8 +14,11 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+<<<<<<< HEAD
     "marked": "^0.3.6",
     "prismjs": "^1.8.1",
+=======
+>>>>>>> 81e968fc73d54039fdb6e415298fa71574571934
     "vue": "^2.4.2"
   },
   "devDependencies": {
