@@ -1,13 +1,12 @@
 <template>
-<<<<<<< HEAD
+
   <!--<div id="app">
-=======
-<<<<<<< HEAD
+
+
   <!--<div id="app">
-=======
+
   <div id="app">
->>>>>>> 81e968fc73d54039fdb6e415298fa71574571934
->>>>>>> cf81b71917711099694b3bda19040737822233e2
+
 <div class="styleEditor">
     <pre>
      {{code}}
@@ -16,10 +15,8 @@
    </div>
   
    
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> cf81b71917711099694b3bda19040737822233e2
+
+
    <div class="resumeEditor" id="resumeEditor">
     <div v-if="enableHtml" v-html="result" :markdown="currentMarkdown"> </div>
     <pre v-else>{{result}}</pre>
@@ -38,9 +35,9 @@
     </resumeEditor>
     
   </div>
-<<<<<<< HEAD
-=======
-=======
+
+
+
    <div class="resumeEditor">
     <div v-if="enableHtml" v-html="result"></div>
     <pre v-else>{{result}}</pre>
@@ -53,16 +50,15 @@
    
   </div>
    
->>>>>>> 81e968fc73d54039fdb6e415298fa71574571934
->>>>>>> cf81b71917711099694b3bda19040737822233e2
+
 
 </template>
 
 <script>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> cf81b71917711099694b3bda19040737822233e2
+
+
+
+
 import styleEditor from './components/styleEditor'
 import resumeEditor from './components/resumeEditor'
 
@@ -143,9 +139,9 @@ html{
           `
 /* 再对 HTML 加点样式 */
 .resumeEditor{
-<<<<<<< HEAD
-=======
-=======
+
+
+
 
 
 export default {
@@ -211,8 +207,8 @@ export default {
     }
    
    .resumeEditor{
->>>>>>> 81e968fc73d54039fdb6e415298fa71574571934
->>>>>>> cf81b71917711099694b3bda19040737822233e2
+
+
   padding: 2em;
 }
 .resumeEditor h2{
@@ -230,10 +226,10 @@ export default {
 .resumeEditor ol {
   counter-reset: section;
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> cf81b71917711099694b3bda19040737822233e2
+
+
+
+
 .resumeEditor ol li::before {
   counter-increment: section;
   content: counters(section, ".") " ";
@@ -269,27 +265,24 @@ export default {
 ----
 * [GitHub](https://github.com/siminmin)
 
-<<<<<<< HEAD
-=======
-=======
+
+
+
 
 
     
     `,
         currentMarkdown: '',
         fullMarkdown: `方应杭
-jjjjjj
->>>>>>> 81e968fc73d54039fdb6e415298fa71574571934
->>>>>>> cf81b71917711099694b3bda19040737822233e2
+
         
   `}
 
   },
   created(){
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> cf81b71917711099694b3bda19040737822233e2
+
+
+
   // var n=0;
   // setInterval(()=>{
   // this.code=this.finalCode.substring(0,n)
@@ -381,11 +374,11 @@ jjjjjj
   * {
     box-sizing: border-box;
   }
-<<<<<<< HEAD
+
 </style>
-=======
+
 </style>
-=======
+
   var n=0;
   setInterval(()=>{
   this.code=this.finalCode.substring(0,n)
@@ -419,5 +412,4 @@ html{
   box-sizing:border-box;
 }
 </style>
->>>>>>> 81e968fc73d54039fdb6e415298fa71574571934
->>>>>>> cf81b71917711099694b3bda19040737822233e2
+
